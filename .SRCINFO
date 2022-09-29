@@ -1,0 +1,18 @@
+pkgbase = rtkl8821au-dkms-git
+	pkgdesc = aarch64-enabled for sunxi platform (mainly, read Pine64 : A64-lts and SoPine baseboard) rtl8821AU and rtl8811AU chipset driver with firmware v5.12.5.2
+	pkgver = 5.12.5.2.r174.g9c682a9
+	pkgrel = 1
+	url = https://github.com/shangril/rtkl8821au-20210708
+	arch = aarch64
+	license = GPL2
+	makedepends = git
+	depends = dkms
+	depends = bc
+	conflicts = rtkl8821au
+	conflicts = 8821au
+	source = git+https://github.com/shangril/rtkl8821au-20210708.git
+	source = dkms.conf
+	sha256sums = SKIP
+	sha256sums = 4c1278e03939298a8bcabfbe63bd995417363601e09583c1125c31df375834f6
+
+pkgname = rtkl8821au-dkms-git
